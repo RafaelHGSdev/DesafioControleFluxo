@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) {
-//        Scanner terminal = new Scanner(System.in);
-//        System.out.println("Digite o primeiro parâmetro");
-//        System.out.println("Digite o segundo parâmetro");
-        int parametroUm = 12;
-        int parametroDois = 30;
+        Scanner terminal = new Scanner(System.in);
+        System.out.println("Digite o primeiro parâmetro");
+        int parametroUm = terminal.nextInt();
+        System.out.println("Digite o segundo parâmetro");
+        int parametroDois = terminal.nextInt();
 
         try {
             //chamando o método contendo a lógica de contagem
